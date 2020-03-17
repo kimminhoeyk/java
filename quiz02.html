@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	
+	<table>
+	<tr>
+	<td colspan="2">
+	<h3>
+		다음 <span style="background-color: orange">내용에 맞게 입력</span> 하시오.
+	</h3>
+	<td>
+	<td rowspan="2">
+		<img src="cute.png">
+	</td>
+	</tr>
+	<tr>
+	<td><h3>전공 분야를 입력하세요.</h3></td>
+	<td><form>
+		<select size="1" name="test">
+			<option value="p1" selected>소프트웨어
+			<option value="p2">경제학
+			<option value="p3">경영학
+		</select>
+	</form></td>
+	</tr>
+	</table>
+	<table>
+	<tr>
+	<td>이름</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>아이디</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>비밀번호</td>
+	<td> <input type="password"></td>
+	</tr>
+	</table>
+	<fieldset>
+		<legend>성별 조사</legend>
+		여성<input type="radio" name="gen" checked="checked">
+		남성<input type="radio" name="gen">
+	</fieldset>
+	<fieldset>
+		<legend>취미 조사</legend>
+		책읽기<input type="checkbox">
+		공부하기<input type="checkbox">
+		책 읽으며 공부하기<input type="checkbox">
+		컴퓨터<input type="checkbox">		
+	</fieldset>
+	<fieldset>
+		<textarea rows="3" cols="50"></textarea>
+	</fieldset>
+	<form action="quiz.html">
+	<input type="submit" value="완료">
+	<input type="reset" value="다시작성">
+	</form>
+</body>
+</html>
